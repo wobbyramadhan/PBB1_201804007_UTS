@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inten2"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edit_nim"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nim"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nama Anda"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_hp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nomor Handphone"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_hobi"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Hobi"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_intentExplicitBundle"
+        android:text="Intent Explicit Bundle"
+        android:layout_width="wrap_content"
+        android:background="@drawable/botton"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
